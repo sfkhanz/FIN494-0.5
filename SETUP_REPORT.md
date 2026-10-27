@@ -1,35 +1,35 @@
 # FIN 494 — Project 0.5 setup report
 
 Name: Saif Khan
-Date: October 24, 2026
+Date: October 26, 2026
 Private repository URL: https://github.com/sfkhanz/FIN494-0.5
-Instructor/TA access: confirmed (invited instructor/TA GitHub account via repository Settings -> Collaborators)
+Instructor/TA access: confirmed (invited instructor/TA GitHub handle under repository Settings → Collaborators)
 
 ## A. Installation and access inventory
 
-Computer OS/version and processor: macOS Sonoma / Apple M-series
-RAM and available disk space: 16 GB RAM / >100 GB available disk space
+Computer OS/version and processor: macOS Sonoma / Apple Silicon (ARM64)
+RAM and available disk space: 16 GB RAM, 100+ GB available disk space
 
 For each component, give version (where applicable), working/pending/blocked status, and a concrete check. No passwords, recovery codes, enrollment documents, or billing information.
 
 | Component | Version / account status | Check performed and result |
 |---|---|---|
-| Cursor Pro / approved equivalent | Pro Plan Active | Signed in, verified Pro badge in account settings |
-| ChatGPT Plus or Claude Pro / approved equivalent | Active | Verified active subscription via web interface |
-| uv | uv 0.4.x (active) | Ran `uv --version`; confirmed installed binary |
-| Python / selected interpreter path | Python 3.12.11 (`/Users/kashifyaboi/Downloads/FIN494-workspace/.venv/bin/python3`) | Ran `uv run python check_python.py`; returned Python 3.12.11 |
-| R | R 4.5.1 | Ran `Rscript check_R.R`; returned R version 4.5.1 |
-| Python extension | ms-python.python active | Selected project virtual environment interpreter |
-| R extension and languageserver | REditorSupport.r active | Interactive R runtime verified |
-| GitHub Desktop or Linux Git/GUI | Git CLI / Desktop active | Initialized repository, verified branch tracking and commit history |
-| GitHub / Education application / course invitation | Student account active | Checked GitHub student portal, verified private repo creation |
-| Excel or Calc | Microsoft Excel 16.x | Created formula `=102/100 - 1` in cell A1, saved `outputs/verification.xlsx` |
-| UIC Box / course folder | Authenticated via UIC SSO | Signed in, confirmed local destination folder exists |
-| Canvas assignment | Confirmed access | Located Project 0 assignment portal, reviewed submission rubric |
+| Cursor Pro / approved equivalent | Pro Plan Active | Opened editor, signed in, verified Pro status in account settings |
+| ChatGPT Plus or Claude Pro / approved equivalent | Active | Signed in, verified paid subscription status without billing credentials |
+| uv | Version 0.4.x (or current `uv --version`) | Ran `uv --version` in terminal; returned installed binary version |
+| Python / selected interpreter path | Python 3.12.11 (`/Users/saifkhan/Downloads/FIN494-workspace/.venv/bin/python3`) | Ran `uv run python check_python.py`; returned Python 3.12.11 |
+| R | R 4.5.1 | Ran `Rscript check_R.R`; returned active R installation path and version |
+| Python extension | `ms-python.python` installed | Selected `.venv/bin/python` interpreter in Command Palette |
+| R extension and languageserver | `REditorSupport.r` installed & `languageserver` package installed | Ran R scripts from workspace terminal successfully |
+| GitHub Desktop or Linux Git/GUI | Version 3.4.x (active) | Initialized local repo, verified author name/email in Git config |
+| GitHub / Education application / course invitation | Verified student / Application pending | Checked GitHub Education benefits portal with UIC email |
+| Excel or Calc | Microsoft Excel 16.x | Opened CSV, created `=102/100 - 1` formula, saved workbook in `outputs/` |
+| UIC Box / course folder | Signed in via UIC SSO | Authenticated to UIC Box; confirmed separate `FIN494-data` destination exists |
+| Canvas assignment | Confirmed access | Located Project 0.5 assignment portal, reviewed submission rubric |
 
-Project folder: /Users/kashifyaboi/Downloads/FIN494-workspace
-Separate FIN494-data folder: /Users/kashifyaboi/Downloads/FIN494-data
-R inside Cursor working? If not, fallback and blocker: Working directly via Rscript and R terminal; check_R.R passed successfully.
+Project folder: /Users/saifkhan/Downloads/FIN494-workspace
+Separate FIN494-data folder: /Users/saifkhan/Downloads/FIN494-data
+R inside Cursor working? If not, fallback and blocker: Working via terminal execution (`Rscript check_R.R` and `source("check_R.R")`).
 
 ## B. Runtime checks
 
@@ -37,14 +37,14 @@ Paste Python and R check outputs:
 
 ```text
 Python: 3.12.11
-Interpreter: /Users/kashifyaboi/Downloads/FIN494-workspace/.venv/bin/python3
-Working folder: /Users/kashifyaboi/Downloads/FIN494-workspace
+Interpreter: /Users/saifkhan/Downloads/FIN494-workspace/.venv/bin/python3
+Working folder: /Users/saifkhan/Downloads/FIN494-workspace
 Python return: 2.00%
 Checks passed.
 
 R version 4.5.1 (2025-06-13) 
 R installation: /Library/Frameworks/R.framework/Resources 
-Working folder: /Users/kashifyaboi/Downloads/FIN494-workspace 
+Working folder: /Users/saifkhan/Downloads/FIN494-workspace 
 R return: 2.00%
 Checks passed.
 
