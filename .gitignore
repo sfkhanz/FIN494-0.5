@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.env
+.env.*
+data-private/
+private-data/
+.DS_Store
+# The small synthetic sample and its outputs are intentionally tracked.

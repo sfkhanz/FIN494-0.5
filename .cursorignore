@@ -1,0 +1,5 @@
+.env
+.env.*
+data-private/
+private-data/
+# These patterns help exclude files from AI context; they are not a sandbox.
