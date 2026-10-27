@@ -2,7 +2,7 @@
 # Run with the project as working directory: source("analyze_prices.R")
 # Windows/macOS fallback: source(file.choose(), chdir = TRUE); select this file.
 
-focus_security <- "SYN_A" # The assignment changes this one setting to SYN_B.
+focus_security <- "SYN_B" # The assignment changes this one setting to SYN_B.
 
 data_path <- file.path("sample_data", "synthetic_prices.csv")
 if (!file.exists(data_path)) {

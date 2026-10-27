@@ -7,7 +7,7 @@ import math
 from datetime import date
 from pathlib import Path
 
-FOCUS_SECURITY = "SYN_A"  # Change to SYN_B for the assignment.
+FOCUS_SECURITY = "SYN_B"  # Change to SYN_B for the assignment.
 project = Path(__file__).resolve().parent
 data_path = project / "sample_data" / "synthetic_prices.csv"
 output_dir = project / "outputs"
